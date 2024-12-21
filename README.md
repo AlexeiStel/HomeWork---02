@@ -1,2 +1,2 @@
-# HomeWork---02
+# HomeWork-02
 WebPack course
