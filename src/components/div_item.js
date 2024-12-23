@@ -11,7 +11,7 @@ function renderDivItem(className, image, svgIcon, sound, pointClass, pauseIcon) 
   document.querySelector(".content-image").appendChild(div);
   
   createSvg(className, "svg", svgIcon, div);  
-  createSvg(className, "sound", svgIcon, div);  
+  createSvg(className, "pause", pauseIcon, div);  
   createAudio(pointClass, sound);
   playAudio(pointClass, image, pauseIcon);
 }
