@@ -1,4 +1,4 @@
-function createVolume() {
+function createVolume(): void {
   const volume = document.createElement("input");
   volume.type = "range";
   volume.min = "0";
