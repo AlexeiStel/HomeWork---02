@@ -1,6 +1,6 @@
-function createAudio(className, sound) {
+function createAudio(className: string, sound:string): void {
   const audio = document.createElement("audio");
-  audio.id = className.substr(1);
+  audio.id = className.substring(1);
   audio.src = sound;
   document.querySelector(className).appendChild(audio);    
 }

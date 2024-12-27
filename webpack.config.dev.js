@@ -6,7 +6,7 @@ module.exports = merge(commonConfig, {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
-        port: 3000,
+        port: 3001,
         hot: true,
         open: true
     },

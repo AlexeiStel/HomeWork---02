@@ -14,7 +14,11 @@ module.exports = {
     overrides: [ 
       {
         files: ['*.js', '*.jsx','*.ts', '*.tsx'],
-        parserOptions: {
+/*        rules: {
+            "no-unused-vars": "off",
+            "no-console": "off"
+        },
+*/        parserOptions: {
           tsconfigRootDir: __dirname,  
         },
       },

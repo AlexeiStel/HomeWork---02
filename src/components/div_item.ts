@@ -3,7 +3,7 @@ import createSvg from "./svg_tag";
 import playAudio from "../handlers/playAudio";
 
 
-function renderDivItem(className, image, svgIcon, sound, pointClass, pauseIcon) {
+function renderDivItem(className: string, image: string, svgIcon: string, sound: string, pointClass: string, pauseIcon: string): void {
   const div = document.createElement("div");
   div.classList.add(className);
   div.classList.add("main");
@@ -11,7 +11,7 @@ function renderDivItem(className, image, svgIcon, sound, pointClass, pauseIcon) 
   document.querySelector(".content-image").appendChild(div);
   
   createSvg(className, "svg", svgIcon, div);  
-  createSvg(className, "sound", svgIcon, div);  
+  createSvg(className, "pause", pauseIcon, div);  
   createAudio(pointClass, sound);
   playAudio(pointClass, image, pauseIcon);
 }

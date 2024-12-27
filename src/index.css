@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   backdrop-filter: blur(10px);
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ body {
   border: none;
 }
 
-.sound,
+.pause,
 .svg {
   position: absolute;
   top: 50%;
@@ -73,7 +73,7 @@ body {
   z-index: 1;
 }
 
-.sound {
+.pause {
   display: none;
 }
 
